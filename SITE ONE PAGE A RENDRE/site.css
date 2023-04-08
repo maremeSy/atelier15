@@ -1,0 +1,110 @@
+
+header{
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px, 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(1, 82, 114);
+}
+.navigation a{
+    position: relative;
+    font-size: 1.1em;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    margin-left: 70px;
+    margin-right: 20px;
+}
+h1{
+    color: white;
+    margin-left: 5%;
+    font-size: 25px;
+}
+#home{
+    background-image: url("https://www.fcagencesanary.com/uploads/files/image-t-site1route-18143.jpg");
+    height: 450px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.para1{
+    position: relative;
+    color:rgb(1, 82, 114);
+    padding-top: 2px;
+    text-align: center;
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 0.3em;
+}
+.para2{
+    text-align: center;
+    padding: 5%;
+}
+#propos{
+    background-color: grey;
+    height: 100spx;
+}
+#Galerie{
+    background-color: palegoldenrod;
+}
+.img{
+    margin-left: -1000px;
+    margin-top: -200px;
+
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 300px);
+    margin: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    padding-top: 2%;
+    margin-left: 8%;
+
+}
+#user{
+    margin: 0px auto;
+    padding: 0px;
+    font-family: "Open Sans" sans-serif;
+    border: 2px solid wheat;
+    width: 20%;
+    text-align: center;
+    margin-right: 70%;
+    height: 65%;
+    margin-top: 5%;
+    box-shadow: 0 0 10px 10px rgb(1, 82, 114);
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+.input1{
+    width: 200px;
+    height: 25px;
+    margin: 15px;
+    font-size: 15px;
+    
+}
+.input2{
+    width: 200px;
+    height: 60px;
+    margin: 15px;
+    font-size: 15px;
+    
+}
+#submit{
+    background-color: blue;
+    color: white;
+    width: 110px;
+    height: 40px;
+    font-size: 20px;
+}
+body{
+    background-color: aliceblue;
+}
+footer{
+    background-color: black;
+    height: 110px;
+    color: white;
+    text-align: center;
+}
